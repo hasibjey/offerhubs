@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Hind Siliguri;
+  font-weight: 200;
+  src: url("../fonts/Hind_Siliguri/HindSiliguri-Light.ttf") format("ttf");
+}
+@font-face {
+  font-family: Hind Siliguri;
+  font-weight: 400;
+  src: url("../fonts/Hind_Siliguri/HindSiliguri-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: Hind Siliguri;
+  font-weight: 600;
+  src: url("../fonts/Hind_Siliguri/HindSiliguri-Medium.ttf") format("ttf");
+}
+@font-face {
+  font-family: Hind Siliguri;
+  font-weight: bold;
+  src: url("../fonts/Hind_Siliguri/HindSiliguri-Bold.ttf") format("ttf");
+}
+@font-face {
+  font-family: Hind Siliguri;
+  font-weight: 800;
+  src: url("../fonts/Hind_Siliguri/HindSiliguri-SemiBold.ttf") format("ttf");
+}
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.ps-product--standard .ps-product__name {
+  height: 19px;
+  overflow: hidden;
+}
+.address-btn {
+  padding: 2rem 4rem;
+  font-size: 14px;
+  background-color: #ff7200;
+  border: 1px solid  #ff7200;
+  color: #FFF;
+  border-radius: 0.25rem;
+}
+.address-btn > i {
+  color: #FFF;
+}
+.navigation {
+  background-color: rgb(255,255,255);
+  border-top: 1px solid #DDD;
+}
+.menu > li {
+  padding: 14px 16px;
+  cursor: pointer;
+}
+.sub-toggle {
+  width: 0;
+  margin-left: 18px;
+}
+.menu > li > a {
+  color: #212121;
+  font-weight: 600;
+}
+.menu > li > a,
+.menu > li.menu-item-has-children .sub-toggle i {
+  color: #000;
+  transition: all 0.4s ease-in-out;
+}
+.menu > li:hover > a,
+.menu > li:hover > .sub-toggle > i {
+  color: #fab528 !important;
+}
+.mega-menu .sub-menu--mega li a {
+  font-weight: 400;
+}
+.mega-menu .sub-menu--mega li:hover a {
+  padding-left: 5px;
+  color: #fab528;
+  text-decoration: none;
+}

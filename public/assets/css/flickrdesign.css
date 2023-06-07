@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --navigation: #182444;
+    --navhover: #091023;
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.f-row {
+    display: flex;
+}
+.f-col {
+    list-style: none;
+    width: 50%;
+    font-size: 14px;
+    color: #212121;
+    padding: 4px;
+}
+.f-btn {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #212121;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.f-table {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.2rem;
+}
+.f-table > .f-row > .f-col {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom: none;
+    border-left: none;
+}
+.f-table > .f-row:first-child > .f-col {
+    border-top: none;
+}
+.f-table > .f-row-head > .f-col{
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.f-table > .f-row > .f-col:first-child{
+    width: 5%;
+    text-align: center;
+}
+.f-table > .f-row > .f-col:last-child{
+    width: 10%;
+    text-align: center;
+    border-right: 0;
+}
+.f-btn-t {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 0;
+}
+.f-btn-t > i {
+    font-size: 12px;
+}
+.f-shadow {
+    box-shadow: 0 0 1px var(--navigation);
+}
+
+.f-form-group {
+    padding-bottom: 10px;
+}
+.f-form-group > label {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+    padding-bottom: 1px;
+}
+.f-form-group > input:focus,
+.f-form-group > select:focus,
+.f-form-group > textarea:focus {
+    box-shadow: 0 0 3px var(--navigation);
+    border: none;
+}
+.f-error {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 550;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    color: #dc3545;
+    margin: 0;
+}
+.f-file-upload > .row {
+    border: 1px solid #ced4da;
+    border-radius: 0.2rem;
+}
+.f-file-field-open {
+    border-right: 1px solid #ced4da;
+    padding: 4px 0;
+}
+.f-file-field-open > button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 550;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+}
+.f-file-field-open-focus{
+    box-shadow: 0 0 3px var(--navigation);
+}
+.f-file-input {
+    padding: 4px 6px;
+    font-size: 14px;
+    font-weight: 550px;
+    font-style: italic;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.f-table-img {
+    width: 100%;
+    max-height: 80px;
+    margin: 0 auto;;
+}
+.f-form-img {
+    width: 100%;
+    max-height: 200px;
+}
+.label-note {
+    font-size: 12px;
+    color: #dc3545;
+}
+.f-form-group > label > small {
+    color: #dc3545;
+} 
